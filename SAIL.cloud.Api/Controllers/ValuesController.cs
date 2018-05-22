@@ -24,5 +24,24 @@ namespace SAIL.cloud.Api.Controllers
             SailCloudContext context = new SailCloudContext();
             return context.Telemetries.Where(telem => telem.BoatId == id);
         }
+
+        public void Post([FromBody]Telemetry telemetry)
+        {
+            if (telemetry != default(Telemetry))
+            {
+                SailCloudContext context = new SailCloudContext();
+                if (telemetry.BoatId > 0)
+                {
+                    if(!context.Boats.Any(b => b.Id == telemetry.BoatId))
+                    {
+                        var boat = new Boat() { Id = telemetry.BoatId };
+                        context.Boats.Add(boat);
+                    }
+                }
+                telemetry.t = DateTime.Now;
+                context.Telemetries.Add(telemetry);
+                context.SaveChanges();
+            }
+        }
     }
 }
