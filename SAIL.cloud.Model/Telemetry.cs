@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SAIL.cloud.Model
 {
@@ -27,5 +28,8 @@ namespace SAIL.cloud.Model
         public float WTs { get; set; }
         public float BS { get; set; }
         public DateTime t { get; set; }
+
+        [Column("Boat_Id")]
+        public int BoatId { get; set; }
     }
 }
