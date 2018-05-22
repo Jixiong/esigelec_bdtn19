@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Model", "SAIL.cloud.Model\SAIL.cloud.Model.csproj", "{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC6848F5-1F27-41E9-842F-8D771E0D8DDA}
+	EndGlobalSection
+EndGlobal
