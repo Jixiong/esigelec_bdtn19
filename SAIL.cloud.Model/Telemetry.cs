@@ -24,12 +24,12 @@ namespace SAIL.cloud.Model
         public float MagneticWindSpeed { get; set; }
         [JsonProperty("WTD")]
         public float TrueWindSpeed { get; set; }
-
         public float WTs { get; set; }
         public float BS { get; set; }
-        public DateTime t { get; set; }
+        public DateTime t { get; set; } = new DateTime();
 
         [Column("Boat_Id")]
+        [JsonProperty("$b")]
         public int BoatId { get; set; }
     }
 }
