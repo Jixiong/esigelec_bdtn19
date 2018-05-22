@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Utils.DALTests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.DAL", "SAIL.cloud.DAL\SAIL.cloud.DAL.csproj", "{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Api", "SAIL.cloud.Api\SAIL.cloud.Api.csproj", "{C95903A6-6485-4D53-B3EA-EC805F992EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Api.Tests", "SAIL.cloud.Api.Tests\SAIL.cloud.Api.Tests.csproj", "{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95903A6-6485-4D53-B3EA-EC805F992EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95903A6-6485-4D53-B3EA-EC805F992EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95903A6-6485-4D53-B3EA-EC805F992EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95903A6-6485-4D53-B3EA-EC805F992EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
