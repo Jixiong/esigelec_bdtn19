@@ -1,4 +1,6 @@
-﻿using SAIL.cloud.DAL;
+﻿using Mapster;
+using SAIL.cloud.DAL;
+using SAIL.cloud.DTO;
 using SAIL.cloud.Model;
 using System;
 using System.Collections.Generic;
@@ -25,11 +27,20 @@ namespace SAIL.cloud.Api.Controllers
             return context.Telemetries.Where(telem => telem.BoatId == id);
         }
 
-        public void Post([FromBody]Telemetry telemetry)
+        public void Post([FromBody]TelemetryDTO telemetrydto)
         {
+            SailCloudContext context = new SailCloudContext();
+            if (telemetrydto.s != default(int))
+            {
+                var user = new User() { Id = telemetrydto.s };
+                context.Users.Add(user);
+            }
+
+            TypeAdapterConfig<TelemetryDTO, Telemetry>.NewConfig()
+                .Map(dest => dest.BoatId, dto => dto.b);
+            Telemetry telemetry = telemetrydto.Adapt<TelemetryDTO, Telemetry>();
             if (telemetry != default(Telemetry))
             {
-                SailCloudContext context = new SailCloudContext();
                 if (telemetry.BoatId > 0)
                 {
                     if(!context.Boats.Any(b => b.Id == telemetry.BoatId))

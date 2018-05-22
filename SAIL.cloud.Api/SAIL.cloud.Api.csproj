@@ -52,6 +52,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Mapster, Version=3.1.8.0, Culture=neutral, PublicKeyToken=2f39883af23c29a8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mapster.3.1.8\lib\net45\Mapster.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -285,6 +288,10 @@
     <ProjectReference Include="..\SAIL.cloud.DAL\SAIL.cloud.DAL.csproj">
       <Project>{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}</Project>
       <Name>SAIL.cloud.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAIL.cloud.DTO\SAIL.cloud.DTO.csproj">
+      <Project>{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}</Project>
+      <Name>SAIL.cloud.DTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\SAIL.cloud.Model\SAIL.cloud.Model.csproj">
       <Project>{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}</Project>
