@@ -8,5 +8,6 @@ namespace SAIL.cloud.Model
     {
         public string Name { get; set; }
         public string Number { get; set; }
+        public virtual ICollection<User> Skippers { get; set; } = new HashSet<User>();
     }
 }

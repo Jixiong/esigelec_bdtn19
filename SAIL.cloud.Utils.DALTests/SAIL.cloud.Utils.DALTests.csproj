@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SAIL.cloud.DAL\SAIL.cloud.DAL.csproj">
-      <Project>{4B3A0FCB-134B-4E6C-9754-E0E37974EAD4}</Project>
+      <Project>{80ce0b8b-8cee-4fd4-8df3-01d9613e73aa}</Project>
       <Name>SAIL.cloud.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\SAIL.cloud.Model\SAIL.cloud.Model.csproj">

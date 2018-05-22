@@ -14,7 +14,7 @@ namespace SAIL.cloud.Utils.DALTests
         {
             SailCloudContext context = new SailCloudContext();
             Console.WriteLine(context.Database.Connection.ConnectionString);
-            context.Users.Add(new User() { Id = 1, LastName = "Blons", FirstName = "Pierrick" });
+            context.Users.Add(new User() { LastName = "Blons", FirstName = "Pierrick" });
             context.SaveChanges();
         }
     }
