@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201805220834039_AddTelemetry.Designer.cs">
       <DependentUpon>201805220834039_AddTelemetry.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805220901002_TelemetryForeignKey.cs" />
+    <Compile Include="Migrations\201805220901002_TelemetryForeignKey.Designer.cs">
+      <DependentUpon>201805220901002_TelemetryForeignKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="SailCloudContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805220834039_AddTelemetry.resx">
       <DependentUpon>201805220834039_AddTelemetry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805220901002_TelemetryForeignKey.resx">
+      <DependentUpon>201805220901002_TelemetryForeignKey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

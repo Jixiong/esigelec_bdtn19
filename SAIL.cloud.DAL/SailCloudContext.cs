@@ -10,5 +10,6 @@ namespace SAIL.cloud.DAL
     {
         public DbSet<Boat> Boats { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Telemetry> Telemetries { get; set; }
     }
 }
