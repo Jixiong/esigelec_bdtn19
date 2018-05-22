@@ -8,7 +8,7 @@ namespace SAIL.cloud.DAL
 {
     public class SailCloudContext : DbContext
     {
-        DbSet<Boat> Boats { get; set; }
-        DbSet<User> Users { get; set; }
+        public DbSet<Boat> Boats { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
