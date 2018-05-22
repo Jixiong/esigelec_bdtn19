@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,9 +19,9 @@ namespace SAIL.cloud.Model
         public float WAs { get; set; }
         public float WAa { get; set; }
         public float WTa { get; set; }
-        //WTd
+        [JsonProperty("WTd")]
         public float MagneticWindSpeed { get; set; }
-        //WTD
+        [JsonProperty("WTD")]
         public float TrueWindSpeed { get; set; }
 
         public float WTs { get; set; }
