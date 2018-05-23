@@ -39,6 +39,7 @@ namespace SAIL.cloud.Api.Controllers
             TypeAdapterConfig<TelemetryDTO, Telemetry>.NewConfig()
                 .Map(dest => dest.BoatId, dto => dto.b);
             Telemetry telemetry = telemetrydto.Adapt<TelemetryDTO, Telemetry>();
+
             if (telemetry != default(Telemetry))
             {
                 if (telemetry.BoatId > 0)
