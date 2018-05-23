@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAIL.cloud.Model", "SAIL.cloud.Model\SAIL.cloud.Model.csproj", "{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Utils.DALTests", "SAIL.cloud.Utils.DALTests\SAIL.cloud.Utils.DALTests.csproj", "{528C62B8-2ED3-437C-90F9-E3C444C36B6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.DAL", "SAIL.cloud.DAL\SAIL.cloud.DAL.csproj", "{80CE0B8B-8CEE-4FD4-8DF3-01D9613E73AA}"
@@ -13,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Api", "SAIL.clou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Api.Tests", "SAIL.cloud.Api.Tests\SAIL.cloud.Api.Tests.csproj", "{268764DE-3FE5-4F9A-90C7-FBEF2F9E0755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.DTO", "SAIL.cloud.DTO\SAIL.cloud.DTO.csproj", "{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAIL.cloud.DTO", "SAIL.cloud.DTO\SAIL.cloud.DTO.csproj", "{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAIL.cloud.Model", "SAIL.cloud.Model\SAIL.cloud.Model.csproj", "{0853C449-8AC1-4B1E-8AF9-F423ACDBB791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{528C62B8-2ED3-437C-90F9-E3C444C36B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{528C62B8-2ED3-437C-90F9-E3C444C36B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528C62B8-2ED3-437C-90F9-E3C444C36B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BA07FF-EA3B-4D06-9D43-4779E58A8A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0853C449-8AC1-4B1E-8AF9-F423ACDBB791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0853C449-8AC1-4B1E-8AF9-F423ACDBB791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0853C449-8AC1-4B1E-8AF9-F423ACDBB791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0853C449-8AC1-4B1E-8AF9-F423ACDBB791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

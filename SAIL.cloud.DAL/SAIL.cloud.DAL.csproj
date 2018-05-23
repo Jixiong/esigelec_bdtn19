@@ -69,12 +69,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SAIL.cloud.Model\SAIL.cloud.Model.csproj">
-      <Project>{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}</Project>
-      <Name>SAIL.cloud.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201805220821111_BoatsUsers.resx">
       <DependentUpon>201805220821111_BoatsUsers.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +78,12 @@
     <EmbeddedResource Include="Migrations\201805220901002_TelemetryForeignKey.resx">
       <DependentUpon>201805220901002_TelemetryForeignKey.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAIL.cloud.Model\SAIL.cloud.Model.csproj">
+      <Project>{0853c449-8ac1-4b1e-8af9-f423acdbb791}</Project>
+      <Name>SAIL.cloud.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

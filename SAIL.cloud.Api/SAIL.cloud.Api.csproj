@@ -294,7 +294,7 @@
       <Name>SAIL.cloud.DTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\SAIL.cloud.Model\SAIL.cloud.Model.csproj">
-      <Project>{F19BFD89-DD78-43DD-A5C0-7C149D9B270A}</Project>
+      <Project>{0853c449-8ac1-4b1e-8af9-f423acdbb791}</Project>
       <Name>SAIL.cloud.Model</Name>
     </ProjectReference>
   </ItemGroup>
